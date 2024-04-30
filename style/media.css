@@ -1,0 +1,677 @@
+/* @media (max-width: 1200px ){
+    .header__content-title{
+        color: red;
+    }
+    .nav__content-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 894px){
+    .header{
+        height: 500px;
+    }
+} */
+@media(max-width: 1200px) {
+    .header {
+        height: 580px;
+    }
+}
+
+@media(max-width:1100px) {
+    .series__bottom {
+        gap: 15px;
+    }
+
+    .collections__cards {
+        gap: 12px;
+    }
+}
+
+@media(max-width:1050px) {
+    .header {
+        height: 530px;
+    }
+
+    .collections__card {
+        height: 180px;
+    }
+
+    .section__title {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    .series__bottom {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:1020px) {
+    .series__bottom {
+        grid-auto-rows: 165px;
+    }
+}
+
+@media(max-width:1000px) {
+    .films__items {
+        gap: 10px;
+    }
+}
+
+@media(max-width:920px) {
+    .section__title {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+
+    .films__item-time {
+        margin: 12px 0 18px;
+    }
+
+    .marvel__content img {
+        width: 400px;
+    }
+
+    .marvel__content-txt {
+        margin: 30px 0 40px;
+    }
+
+    .marvel__content {
+        padding: 42px 0 50px;
+    }
+
+    .collections {
+        padding: 40px 0 35px;
+    }
+
+    .collections__card {
+        height: 160px;
+    }
+
+    .series__top {
+        height: 410px;
+    }
+
+    .films {
+        padding: 38px 0 60px;
+    }
+}
+
+@media(max-width:900px) {
+    .films__item-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        height: 500px;
+    }
+
+    .collections__card {
+        height: 155px;
+    }
+
+    .series__top {
+        height: 390px;
+    }
+
+    .series__bottom {
+        grid-auto-rows: 155px;
+    }
+
+}
+
+@media(max-width:850px) {
+    .header {
+        height: 470px;
+    }
+
+    .header__content-btn {
+        max-width: 164px;
+        height: 44px;
+
+    }
+
+    .films__item-name {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .marvel__content img {
+        width: 390px;
+    }
+
+    .collections__card {
+        height: 150px;
+    }
+
+    .series__top {
+        height: 380px;
+    }
+
+    .series__bottom {
+        grid-auto-rows: 140px;
+    }
+
+    .marvel__content {
+        padding: 35px 0 45px;
+    }
+}
+
+@media(max-width:800px) {
+    .header {
+        height: 460px;
+    }
+
+    .nav__poster {
+        padding: 10px 0;
+    }
+
+    .nav__content {
+        height: 80px;
+    }
+
+    .nav {
+        top: -65px;
+    }
+
+    .header {
+        height: 425px;
+    }
+
+    .header__content-title {
+        font-size: 55px;
+    }
+
+    .header__content-txt {
+        margin: 20px 0 30px;
+    }
+
+    .films__items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        overflow-x: scroll;
+    }
+
+    .films__items::-webkit-scrollbar{
+        background: none;
+        height: 5px;
+    }
+    .films__items::-webkit-scrollbar-thumb{
+        background: gainsboro;
+        border-radius: 5px;
+    }
+
+    .films__item {
+        width: 220px;
+    }
+
+    .films {
+        padding: 35px 0 45px;
+    }
+
+    .collections__card {
+        height: 135px;
+    }
+
+    .collections {
+        padding: 30px 0 30px;
+    }
+
+    .series__top {
+        height: 360px;
+    }
+
+    .series__bottom {
+        grid-auto-rows: 135px;
+    }
+
+    .footer {
+        padding: 20px 0 20px;
+    }
+
+    .nav__content-link:hover::before {
+        bottom: -20px;
+    }
+}
+
+@media(max-width:750px) {
+    .collections__card-name {
+        font-size: 16px;
+    }
+
+    .collections {
+        padding: 20px 0 20px;
+    }
+
+    .series__top {
+        height: 350px;
+    }
+
+    .header__content-title {
+        font-size: 50px;
+    }
+
+    .header__content-txt {
+        margin: 10px 0 15px;
+    }
+
+    .header {
+        height: 400px;
+    }
+
+    .header__content-title {
+        font-size: 45px;
+    }
+
+    .films {
+        padding: 30px 0 35px;
+    }
+}
+@media(max-width:700px){
+    .marvel {
+        background: linear-gradient(90.00deg, rgb(222, 247, 255), rgb(244, 252, 255) 11.639%, rgba(255, 255, 255, 0) 100.721%);
+    }
+    .marvel__content img {
+        width: 360px;
+    }
+    .marvel__content {
+        padding: 25px 0 35px;
+    }
+    .series__top {
+        height: 330px;
+    }
+    .series__bottom {
+        grid-auto-rows: 125px;
+    }
+    .footer {
+        padding: 15px 0 15px;
+    }
+    .collections__card {
+        height: 125px;
+    }
+    .series__top-txt{
+        margin: 15px 0 15px;
+    }
+    .series__top-title{
+        font-size: 35px;
+    }
+    .footer__content-img{
+        gap: 30px;
+    }
+    .series__card-name{
+        font-size: 20px;
+    }
+    .series__top {
+        height: 320px;
+    }
+    .collections__card-name {
+        font-size: 15px;
+    }
+}
+@media(max-width:650px){
+    .footer__content-img {
+        gap: 20px;
+    }
+    .series__bottom {
+        grid-auto-rows: 115px;
+    }
+    .series__top {
+        height: 310px;
+    }
+    .collections {
+        padding: 15px 0 15px;
+    }
+    .header {
+        height: 385px;
+    }
+    .nav__content {
+        height: 70px;
+    }
+    .collections__cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        overflow-x: scroll;
+    }
+    .collections__cards::-webkit-scrollbar{
+        background: none;
+        height: 5px;
+    }
+    .collections__cards::-webkit-scrollbar-thumb{
+        background: gainsboro;
+        border-radius: 5px;
+    }
+    .collections__card{
+        max-width: none;
+        width: 250px;
+        height: 145px;
+        gap: 7px;
+    }
+    .collections__card-icon{
+        font-size: 37px;
+    }
+    .section__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .films {
+        padding: 15px 0 20px;
+    }
+}
+@media(max-width:620px){
+    .nav__content-logo img{
+        width: 85px;
+    }
+    .nav__content-logo span{
+        margin-left: 0;
+        font-size: 16px;
+    }
+    .header__content-title{
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .series__top {
+        height: 300px;
+    }
+    .header {
+        height: 340px;
+    }
+    .header__content-txt{
+        line-height: 17px;
+    }
+    .series__card-icon {
+        font-size: 37px;
+    }
+    .series__card{
+        gap: 7px;
+    }
+    .films__item-icon {
+        font-size: 37px;
+    }
+    .films__item-time{
+        padding: 4px 22px;
+        margin:12px 0;
+    }
+    .films__item-name{
+        line-height: 15px;
+    }
+    .films__item{
+        height: 310px;
+    }
+    .marvel__content-txt {
+        margin: 15px 0 15px;
+    }
+    .marvel__content img {
+        width: 300px;
+    }
+    .series__top-title {
+        font-size: 30px;
+        line-height: 1.0;
+    }
+    .series__top-txt{
+        line-height: 20px;
+        margin: 10px 0;
+    }
+    .header__content-btn {
+        max-width: 130px;
+        height: 35px;
+    }
+    .header__content-txt {
+        margin: 5px 0 7px;
+    }
+    .marvel__content-btn {
+        padding: 14px 33px;
+        width: 140px;
+        height: 40px;
+    }
+    .marvel__content-txt {
+        margin: 0px 0 8px;
+    }
+    .series__top-btn{
+        padding: 15px 30px;
+    }
+}
+@media(max-width:600px){
+    .nav__poster {
+        padding: 5px 0;
+    }
+    .nav__content {
+        height: 60px;
+    }
+    .nav__content-link:hover::before {
+        bottom: -13px;
+    }
+    .nav {
+        top: -55px;
+    }
+    .series__top {
+        height: 290px;
+    }
+    .series__bottom {
+        grid-auto-rows: 110px;
+    }
+    .footer {
+        padding: 12px 0 12px;
+    }
+}
+@media(max-width:590px){
+    .series__top {
+        height: 280px;
+    }
+    .footer {
+        padding: 8px 0 8px;
+    }
+    .series__bottom {
+        margin: 20px 0;
+    }
+    .series__bottom {
+        grid-auto-rows: 100px;
+    }
+    .series__card {
+        gap: 4px;
+    }
+    .series__top {
+        height: 270px;
+    }
+    .collections {
+        padding: 7px 0 7px;
+    }
+    .marvel__content {
+        padding: 20px 0 20px;
+    }   
+    .footer__content-txt{
+        font-size: 15px;
+    }
+    
+}
+@media(max-width:550px){
+    .header {
+        height: 270px;
+    }
+    .header__content-title {
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .header__content-txt {
+        margin: 10px 0;
+    }
+    .header__content-btns{
+        gap: 10px;
+    }
+    .marvel__content img {
+        width: 280px;
+    }
+    .marvel__content-txt {
+        margin: 3px 0 7px;
+    }
+    .marvel__content {
+        padding: 10px 0 15px;
+    }
+    .series__top {
+        height: 280px;
+    }
+    .series__top-txt {
+        line-height: 18px;
+        margin: 8px 0;
+    }
+    .series__bottom {
+        grid-auto-rows: 150px;
+        margin: 13px 0;
+        grid-template-columns: 1fr 1fr;
+    }
+    .series__card:nth-of-type(1){
+        grid-column: 1/3;
+    }
+    .footer__content-img {
+        gap: 5px;
+    }
+    .footer__content-img  img{
+        width: 95px;
+    }
+    .nav__content-logo img {
+        width: 70px;
+    }
+    .nav__content-logo span {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .series__card {
+        gap: 11px;
+    }
+}
+@media(max-width:500px){
+    .footer__content-img img {
+        width: 107px;
+    }
+    .footer__content-img {
+        gap: 12px;
+    }
+    .footer {
+        padding: 14px 0 14px;
+    }
+    .footer__content-txt{
+        max-width: 220px;
+        text-align: right;
+    }
+}
+@media(max-width:450px){
+    .series__top {
+        height: 260px;
+    }
+    .series__top-txt {
+        line-height: 15px;
+        margin: 6px 0;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .nav__content-burger{
+        display: block;
+    }
+    .nav__content-burger{
+        display: block;
+    }
+    .nav__content-list{
+        position: absolute;
+        top: 0;
+        right: 0;
+        visibility: hidden;
+        opacity: 0;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 220px;
+        background-color:  black;
+        width: 100px;
+        transition: 0.5s;
+    }
+    #check:checked ~ .nav__content-list{
+        visibility: visible;
+        opacity: 1;
+    }
+    .nav__content-close{
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .series__top-title {
+        font-size: 24px;
+        line-height: 1.0;
+    }
+    .series__top-txt {
+        line-height: 14px;
+        margin: 3px 0;
+    }
+    .series__bottom{
+        grid-auto-rows: 130px;
+    }
+    .footer__content-img img {
+        width: 80px;
+    }
+    .footer__content-txt {
+        max-width: 150px;
+        text-align: right;
+    }
+    .footer__content-img {
+        gap: 12px;
+        flex-direction: column;
+    }
+    .footer__content{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 350px) {
+    .nav__poster{
+        gap: 10px;
+    }
+    .nav__poster-icon{
+        font-size: 38px;
+    }
+    .nav{
+        top: -48px;
+    }
+    .marvel__content-txt{
+        line-height: 20px;
+    }
+    .collections__cards{
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+    .series__top {
+        height: 310px;
+        
+    }
+    .series__top-txt{
+        line-height: 17px;
+    }
+    .series__bottom {
+        grid-auto-rows: 110px;
+        gap: 10px;
+    }
+    .footer__content-icon{
+        display: none;
+    }
+    .footer__content-mini-icon{
+        display: block;
+        width: 10px;
+        height: 30px;
+    }
+    .footer__content-img img{
+        width: max-content;
+    }
+    .footer__content-img{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .footer__content-txt{
+        max-width: 220px;
+    }
+}
